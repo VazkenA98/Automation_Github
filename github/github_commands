@@ -2,20 +2,20 @@
 # change directory to codebase
 $ cd /file/path/to/code
 
-make directory a git repository
+# make directory a git repository
 $ git init
 
 *********Status*********
 $ git status
 
 *********ADD*********
-To add all files not staged:
+# To add all files not staged:
 $ git add .
 
-To stage a specific file:
+# To stage a specific file:
 $ git add index.html
 
-To stage an entire directory:
+# To stage an entire directory:
 $ git add css
 
 *********Commit*********
