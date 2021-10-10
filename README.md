@@ -2,7 +2,7 @@
 # Automation_Github
 
 
-##Github Init
+## Github Init
 * **make git repository**
 ```shell script
 $ git init
@@ -16,13 +16,13 @@ $ git init <newDirectory>
 $ cd /file/path/to/code
 ```
 
-##Github Status
+## Github Status
 * **get git status**
 ```shell script
 $ git status
 ```
 
-##Github Add
+## Github Add
 * **To add all files not staged:**
 ```shell script
 $ git add .
@@ -35,18 +35,18 @@ $ git add index.html
 ```shell script
 $ git add css
 ```
-##Github Status
+## Github Status
 * **get git status**
 ```shell script
 $ git status
 ```
 
-##Github Commit
+## Github Commit
 * **Adding a commit with message**
 ```shell script
 $ git commit -m "Commit message in quotes"
 ```
-##Github Branch
+## Github Branch
 * **Create a new branch**
 ```shell script
 $ git branch <branch_name>
@@ -60,7 +60,7 @@ $ git branch -a
 $ git branch -d <branch_name>
 ```
 
-##Github Checkout
+## Github Checkout
 * **Checkout an existing branch**
 ```shell script
 $ git checkout <branch_name>
@@ -69,31 +69,31 @@ $ git checkout <branch_name>
 ```shell script
 $ git checkout -b <new_branch>
 ```
-##Github Merge
+## Github Merge
 * **Merge changes into current branch**
 ```shell script
 $ git merge <branch_name>
 ```
 
-##Github Resolve Conflict
+## Github Resolve Conflict
 * **Resolve conflict**
 ```shell script
 $ git mergetool
 ```
 
-##Github Clone
+## Github Clone
 * **Clone repository**
 ```shell script
 $ git clone <remote_URL>
 ```
 
-##Github Pull
+## Github Pull
 * **Pull branch**
 ```shell script
 $ git pull <branch_name> <remote_URL/remote_name>
 ```
 
-##Github Push
+## Github Push
 * **Push branch**
 ```shell script
 $ git push <remote_URL/remote_name> <branch>
@@ -103,7 +103,7 @@ $ git push <remote_URL/remote_name> <branch>
 $ git push —all
 ```
 
-##Github Log
+## Github Log
 * **Show entire git log**
 ```shell script
 $ git log
