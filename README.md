@@ -1,68 +1,113 @@
+
 # Automation_Github
 
-*********INIT*********
-# change directory to codebase
-$ cd /file/path/to/code
 
-# make directory a git repository
+##Github Init
+* **make git repository**
+```shell script
 $ git init
+```
+* **make git repository and directory**
+```shell script
+$ git init <newDirectory>
+```
+* **change directory to codebase**
+```shell script
+$ cd /file/path/to/code
+```
 
-*********Status*********
+##Github Status
+* **get git status**
+```shell script
 $ git status
+```
 
-*********ADD*********
-# To add all files not staged:
+##Github Add
+* **To add all files not staged:**
+```shell script
 $ git add .
-
-# To stage a specific file:
+```
+* **To stage a specific file:**
+```shell script
 $ git add index.html
-
-# To stage an entire directory:
+```
+* **To stage an entire directory:**
+```shell script
 $ git add css
+```
+##Github Status
+* **get git status**
+```shell script
+$ git status
+```
 
-*********Commit*********
-# Adding a commit with message
+##Github Commit
+* **Adding a commit with message**
+```shell script
 $ git commit -m "Commit message in quotes"
-
-*********Branch*********
-# Create a new branch
+```
+##Github Branch
+* **Create a new branch**
+```shell script
 $ git branch <branch_name>
-
-# List all remote or local branches
+```
+* **List all remote or local branches**
+```shell script
 $ git branch -a
-
-# Delete a branch
+```
+* **Delete a branch**
+```shell script
 $ git branch -d <branch_name>
+```
 
-*********Checkout*********
-# Checkout an existing branch
+##Github Checkout
+* **Checkout an existing branch**
+```shell script
 $ git checkout <branch_name>
-
-# Checkout and create a new branch with that name
+```
+* **Checkout and create a new branch with that name**
+```shell script
 $ git checkout -b <new_branch>
-
-*********Merge*********
-# Merge changes into current branch
+```
+##Github Merge
+* **Merge changes into current branch**
+```shell script
 $ git merge <branch_name>
+```
 
-*********Resolve Conflict*********
+##Github Resolve Conflict
+* **Resolve conflict**
+```shell script
 $ git mergetool
+```
 
-*********Clone*********
+##Github Clone
+* **Clone repository**
+```shell script
 $ git clone <remote_URL>
+```
 
-*********Pull*********
+##Github Pull
+* **Pull branch**
+```shell script
 $ git pull <branch_name> <remote_URL/remote_name>
+```
 
-*********Push*********
+##Github Push
+* **Push branch**
+```shell script
 $ git push <remote_URL/remote_name> <branch>
-
-# Push all local branches to remote repository
+```
+* **Push all local branches to remote repository**
+```shell script
 $ git push —all
+```
 
-*********Log*********
-# Show entire git log
+##Github Log
+* **Show entire git log**
+```shell script
 $ git log
+```
 
 
 
