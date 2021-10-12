@@ -102,13 +102,19 @@ $ git push <remote_URL/remote_name> <branch>
 $ git push —all
 ```
 
+## Github Revert
+* **Reverting changes**
+```shell script
+$ git revert <commit-ish>  
+```
+
 ## Github Log
 * **Show entire git log**
 ```shell script
 $ git log
 ```
 
-
-
+## Github Study Link
+###https://www.javatpoint.com/what-is-github
 
 
